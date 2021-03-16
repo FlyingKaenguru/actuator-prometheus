@@ -1,0 +1,8 @@
+
+management:
+  endpoints:
+    web.exposure.include: health, caches, info, threaddump, heapdump, prometheus, metrics
+  endpoint:
+    health:
+      show-components: always
+      show-details: always
